@@ -1,13 +1,7 @@
 #pragma once
-class Wlidboar
+#include "Monster.h"
+class Wlidboar :public Monster
 {
-	int HP;
-	int MP;
-	int Gold;
-
-	void Move();
 	
-	void Run();
-	void Attack();
 };
 

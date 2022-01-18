@@ -1,12 +1,7 @@
 #pragma once
-class Goblin
+#include "Monster.h"
+class Goblin :public Monster
 {
-	int HP;
-	int MP;
-	int Gold;
 
-	void Move();
-	void Run();
-	void Attack();
 };
 
